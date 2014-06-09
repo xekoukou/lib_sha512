@@ -5,7 +5,7 @@ int main()
 {
 
 	char *string = "blue ferry";
-	char result[128];
+	char result[SHA512_LENGTH];
 	sha512(string, 10, result);
 
 	printf("result: %s\n", result);
