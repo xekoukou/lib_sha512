@@ -4,9 +4,9 @@
 int main()
 {
 
-	char *string = "blue ferry";
+	char *string = "";
 	char result[SHA512_LENGTH];
-	sha512(string, 10, result);
+	sha512(string, 0, result);
 
 	printf("result: %s\n", result);
 
